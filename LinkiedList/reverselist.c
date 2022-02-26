@@ -26,6 +26,7 @@ int main()
         head=head->next;    
     }
     head->next=NULL;
+    head=help;
     c=help;
     f=head->next;
     p=NULL;
